@@ -14,7 +14,11 @@ export default function Document(props: Props) {
       <Head>
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-title" content="Chatbot UI"></meta>
-        <script src="https://hm.baidu.com/hm.js?19e52b7ef5eb962c79ab929c0869336f" defer></script>
+        <script
+          async
+          src="https://umami.fre123.com/script.js"
+          data-website-id="7f5029ff-efc6-44f7-bbec-ac10bdc2a54f"
+        ></script>      
       </Head>
       <body>
         <Main />
